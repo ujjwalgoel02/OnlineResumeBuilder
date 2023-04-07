@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ResumePage"
+    android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/PName"
+      android:layout_width="138dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="25dp"
+      android:hint="Name"
+      android:textColor="@color/black"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/PAddress"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:hint="address"
+      android:textColor="@color/black"
+      android:textSize="10sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/PName" />
+
+  <TextView
+      android:id="@+id/textView17"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:text="Phone No:-"
+      android:textColor="@color/black"
+      android:textSize="10sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/PAddress" />
+
+  <TextView
+      android:id="@+id/PPhone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="70dp"
+      android:layout_marginTop="-14dp"
+      android:hint="number"
+      android:textSize="10sp"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      app:layout_constraintStart_toEndOf="@+id/textView17"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView19"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="155dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="-15dp"
+      android:text="E-mail:-"
+      android:textColor="@color/black"
+      android:textSize="10sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toEndOf="@+id/PPhone"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/PEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="192dp"
+      android:layout_marginLeft="56dp"
+      android:layout_marginTop="-14dp"
+      android:hint="email"
+      android:textColor="@color/black"
+      android:textSize="10sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toEndOf="@+id/textView19"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Linkedin ID:-"
+      android:textSize="10sp"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+      android:layout_marginTop="5dp"
+      android:layout_marginLeft="20dp"/>
+
+  <TextView
+      android:id="@+id/PLinkedinID"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="76dp"
+      android:layout_marginTop="-14dp"
+      android:hint="linkedinId"
+      android:inputType="textPersonName"
+      android:textColor="@color/black"
+      android:textSize="10sp"
+      android:textStyle="bold" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+      android:text="GitHub ID:-"
+      android:textSize="10sp"
+      android:layout_marginTop="-14dp"
+    android:layout_marginLeft="175dp"/>
+
+  <TextView
+      android:id="@+id/PGithubID"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="225dp"
+      android:layout_marginTop="-14dp"
+      android:hint="githubID"
+      android:textColor="@color/black"
+      android:textSize="10dp"
+      android:textStyle="bold" />
+  <TextView
+      android:id="@+id/textView21"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="15dp"
+      android:text="CAREER OBJECTIVE"
+      android:textColor="@color/black"
+      android:textSize="25dp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+  <View
+      android:id="@+id/divider2"
+      android:layout_width="958dp"
+      android:layout_height="2dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@color/black"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+  <TextView
+      android:id="@+id/textView22"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:text="Seeking employment with a company where i can use my talent and skills to grow the company."
+      android:textColor="@color/black"
+      android:textSize="10dp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+  <TextView
+      android:id="@+id/textView23"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:text="EDUCATION"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      android:textSize="25dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+  <View
+      android:id="@+id/divider3"
+      android:layout_width="958dp"
+      android:layout_height="2dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@color/black"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+  <TextView
+      android:id="@+id/PPostGradYear"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:hint="year-year"
+      android:textColor="@color/black"
+      android:textSize="10dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/PSchool"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="70dp"
+      android:layout_marginTop="-14dp"
+      android:hint="Colage name"
+      android:textColor="@color/black"
+      android:textSize="10sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/PGraduationYear"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:hint="year-year"
+      android:textColor="@color/black"
+      android:textSize="10sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/PCollage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="70dp"
+      android:layout_marginTop="-14dp"
+      android:hint="school name"
+      android:textColor="@color/black"
+      android:textSize="10dp"
+      android:textStyle="bold" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="15dp"
+     android:text="EXPERIENCE"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     android:textStyle="bold"/>
+
+  <View
+      android:id="@+id/divider"
+      android:layout_width="958dp"
+      android:layout_height="2dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@color/black"
+      app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/PExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="Years/Fresher"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="15dp"
+      android:text="SKILLS"
+      android:textColor="@color/black"
+      android:textSize="25sp"
+      android:textStyle="bold"/>
+
+  <View
+      android:id="@+id/divider4"
+      android:layout_width="958dp"
+      android:layout_height="2dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@color/black"
+      app:layout_constraintStart_toStartOf="parent"  />
+
+    <TextView
+        android:id="@+id/PSkill1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="skill-1"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PSkill2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="skill-2"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PSkill3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="skill-3"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="15dp"
+      android:text="PROJECTS"
+      android:textColor="@color/black"
+      android:textSize="25sp"
+      android:textStyle="bold"/>
+
+  <View
+      android:id="@+id/divider5"
+      android:layout_width="958dp"
+      android:layout_height="2dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@color/black"
+      app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/PProject1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="project-1"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PProject2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="project-2"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="CODING LANG."
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="958dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/PLanguages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="languages"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="wrap_content"
+      android:layout_height="42dp"
+      android:layout_marginLeft="250dp"
+      android:layout_marginTop="50dp"
+      android:text="Generate PDF"
+      android:textSize="10sp"/>
+
+
+</LinearLayout>
+

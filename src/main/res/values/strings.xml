@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MultiTaskingApp</string>
+    <string name="enter_the_app">Enter the app</string>
+    <string name="hello_friends_welcome_to_the_multitasking_app_here_you_are_doing_multi_things">Welcome to the MultiTasking App .Here you are doing multi things.</string>
+    <string name="Create">Create</string>
+    <string name="SeeMemes">See Memes</string>
+    <string name="createResume">Create Resume</string>
+    <string name="enter_the_details">Enter the details.</string>
+    <string name="name">Name:-</string>
+    <string name="email">Email:-</string>
+    <string name="phone_no">Phone No.:-</string>
+    <string name="linkedin_id">Linkedin Id.:-</string>
+    <string name="experience_years">Experience:-</string>
+    <string name="post_graduation_years">PostGradua.Year:-</string>
+    <string name="school_name">School Name:-</string>
+    <string name="undergradua_year">Graduation Year:-</string>
+    <string name="coding_language">Coding Languages.:-</string>
+    <string name="skills">Skills:-</string>
+    <string name="address">Address:-</string>
+    <string name="project_2">Project 2</string>
+    <string name="project_1">Project 1</string>
+    <string name="sch_name">Sch Name</string>
+    <string name="Gra_year">Year-Year</string>
+    <string name="PostGra_year">Year-Year</string>
+</resources>
